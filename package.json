@@ -25,7 +25,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@cz-translated-changelog/zh-cn": "^0.0.14",
+    "@cz-translated-changelog/zh-cn": "^0.0.18",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@esbuild-kit/cjs-loader": "latest",

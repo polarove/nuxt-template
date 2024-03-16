@@ -50,8 +50,8 @@ devDependencies:
     specifier: latest
     version: 19.1.0
   '@cz-translated-changelog/zh-cn':
-    specifier: ^0.0.14
-    version: 0.0.14(@types/node@20.11.28)(typescript@5.4.2)
+    specifier: ^0.0.18
+    version: 0.0.18(@types/node@20.11.28)(typescript@5.4.2)
   '@esbuild-kit/cjs-loader':
     specifier: latest
     version: 2.4.4
@@ -588,8 +588,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@cz-translated-changelog/zh-cn@0.0.14(@types/node@20.11.28)(typescript@5.4.2):
-    resolution: {integrity: sha512-hJ7ynSpruOvorGB/tZQ/D48blpPhgcaSQVQ8tYbrKcWIKgs8t2rgLRpQU9ex0vUVDcAwiR0q2sMM5ebduMakgw==}
+  /@cz-translated-changelog/zh-cn@0.0.18(@types/node@20.11.28)(typescript@5.4.2):
+    resolution: {integrity: sha512-ruSci+KcjkmxyxpKCKWwkZ8qN2i0ypXuDWd97l8NtZBOjedJQWvp//BIG6zMDeG/K3nKH+aixFS3ygo8+N03oQ==}
     engines: {node: '>= 10'}
     dependencies:
       chalk: 2.4.2
