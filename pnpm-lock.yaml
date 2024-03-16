@@ -18,11 +18,14 @@ dependencies:
     specifier: ^0.5.1
     version: 0.5.1(typescript@5.4.2)(vue@3.4.21)
   '@polaris_liu/toolcat':
-    specifier: 1.0.12
-    version: 1.0.12(typescript@5.4.2)
+    specifier: 1.0.21
+    version: 1.0.21(@vue/shared@3.4.21)(typescript@5.4.2)
   '@unocss/nuxt':
     specifier: ^0.58.5
     version: 0.58.5(postcss@8.4.35)(vite@5.1.6)(webpack@5.90.3)
+  '@vue/shared':
+    specifier: ^3.4.21
+    version: 3.4.21
   '@vueuse/motion':
     specifier: ^2.1.0
     version: 2.1.0(vue@3.4.21)
@@ -1820,12 +1823,12 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@polaris_liu/toolcat@1.0.12(typescript@5.4.2):
-    resolution: {integrity: sha512-QLiVaZeph54ZGokJWZ099AgMA5iHJok1v1Fs+PBqaD5935jJAy0EcvslJ8KOCwHJyBsujmqTx2dKbJk6rhV3CQ==}
+  /@polaris_liu/toolcat@1.0.21(@vue/shared@3.4.21)(typescript@5.4.2):
+    resolution: {integrity: sha512-HXJpzSMuu0f9R3PCVEHyg/SbFa6+AUaPmwAleDkyTxFzEDspWYp0/482x4cxAz7vkyw7Hme+eBtzKS3KGWRs5A==}
     peerDependencies:
+      '@vue/shared': latest
       typescript: '>=5.0.0'
     dependencies:
-      '@types/node': 20.11.28
       '@vue/shared': 3.4.21
       typescript: 5.4.2
     dev: false
